@@ -1,0 +1,22 @@
+Class("SplitStringDemo",[
+	Main([
+		makeVariable(
+			variableName="theString",
+			arrayDimensions=0,
+			variableType="string",
+			initialValue="\"lol,lol,tee,hee\""+";"
+		),
+		makeVariable(
+			variableName="theSplitString",
+			arrayDimensions=[""],
+			initialValue = split(
+				string="theString",
+				separator="\",\""
+			),
+			variableType="String",
+		),
+		foreach(array="theSplitString",typeInArray="string",variableName="current",body=[
+			puts("current")+";",
+		]),
+	]),
+])

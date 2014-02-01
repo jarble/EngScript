@@ -1,0 +1,152 @@
+'''how to match the same pattern repeated multiple times:
+	
+	http://stackoverflow.com/questions/11460397/match-the-same-unknown-character-multiple-times
+
+'''
+from functionChecker import functionChecker
+import re
+
+#Test everything in testingStuff.py
+
+equals = "(?:==|is|equals|equal|is (?:the same as|(?:equal|equivalent) to))"
+theOldArray = [
+		'\((test the exec function)\)',
+		'\(([^\s]+) (if) ([^\s]+) (unless) ([^\s]+)\)',
+		'\(([^\s]+)((?: )\+\+)\)',
+		
+		'\(([^\s]+) (means the same as|has the same meaning as) ([^\s]+)\)',
+		
+		'\((the value of) ([^\s]+)\)',
+		
+		'\(([^\s]+) (squared)\)',
+		
+		'\(([^\s]+)((?: percent|%) of) ([^\s]+)\)',
+		
+		'\(([^\s]+) (\+=) ([^\s]+)\)',
+		'\(([^\s]+) (\*=) ([^\s]+)\)',
+		'\(([^\s]+) (\-=) ([^\s]+)\)',
+		'\(([^\s]+) (cubed)\)',
+		'\((not|\!) ([^\s]+)\)',
+		'\(([^\s]+) (\!\=|(?:does not|doesn\'t) equal|(?:is not|isn\'t) (?:equal|identical) to) ([^\s]+)\)',
+		'\(((?:function|method|procedure)(?: (?:named|called|known as)|)) ([^\s]+) ((?:that|which) (?:returns|(?:must|should|will) return)) ([^\s]+) (with (?:the |)(?:parameters|parameter names)(?: (?:named|called|known as)|)) ([^\s]+) ((?:with|and|and with)(?: the|)(?: parameter|) types) ([^\s]+) ([^\s]+)\)',
+		'\((for) ([^\s]+) ([^\s]+) ([^\s]+) ([^\s]+)\)',
+		'\(([^\s]+)( ;|;)\)',
+		
+		'\(([^\s]+) (\=) ([^\s]+) (\+) ([^\s]+)\)',
+		'\(([^\s]+) (\=) ([^\s]+) (\*) ([^\s]+)\)',
+		'\(([^\s]+) (\=) ([^\s]+) (\-) ([^\s]+)\)',
+		
+		'\(([^\s]+) (\/) ([^\s]+)\)',
+		
+		'\(([^\s]+) (mod|%) ([^\s]+)\)',
+		'\(([^\s]+)( ,|,)\)',
+		'\((switch) ([^\s]+) ([^\s]+)\)',
+		'\((module) ([^\s]+)\)',
+		'\((default) ([^\s]+)\)',
+		'\(([^\s]+) (converted from) ([^\s]+) (to|into) ([^\s]+)\)',
+		'\(([^\s]+) (converted (?:to|into)) ([^\s]+) (from) ([^\s]+)\)',
+		'\((convert) ([^\s]+) (from) ([^\s]+) (to|into) ([^\s]+)\)',
+		'\((convert) ([^\s]+) (to|into) ([^\s]+) (from) ([^\s]+)\)',
+		'\((main) ([^\s]+)\)',
+		'\((cond|conditionalBlock|conditional block) ([^\s]+)\)',
+		'\((\[|\[ )([^\s]+)(\]| \])\)',
+		'\((def|defun|func|function) ([^\s]+) ([^\s]+) ([^\s]+)\)',
+		'\(public static ([^\s]+) ([^\s]+) ([^\s]+) ([^\s]+) ([^\s]+)\)',
+		#'\(if ([^\s]+) ([^\s]+) ([^\s]+)\)',
+		'\(([^\s]+) (\=) ([^\s]+) (\[) ([^\s]+) (\])\)',
+		'\(([^\s]+) (\=) ([^\s]+)\)',
+		'\(([^\s]+) \[ ([^\s]+) \] = ([^\s]+)\)',
+		'\(while ([^\s]+)\)',
+		'\(if ([^\s]+)\)',
+		'\(([^\s]+) \[ ([^\s]+) \]\)',
+		'\(([^\s]+)\{ ([^\s]+) \}\)',
+		'\(([^\s]+)\[ ([^\s]+) \]\)',
+		'\(([^\s]+) ([^\s]+) = ([^\s]+)\)',
+		'\(([^\s]+) \[ ([^\s]+) \] ([^\s]+) = ([^\s]+)\)',
+		'\(([^\s]+) ([^\s]+) \[ ([^\s]+) \] = ([^\s]+)\)',
+		'\(([^\s]+) ([^\s]+) ([^\s]+) = ([^\s]+)\)',
+		'\((switch) ([^\s]+) ([^\s]+) ([^\s]+)\)',
+		'\((switch) ([^\s]+)\)',
+		'\((else if|elsif|elif) ([^\s]+) ([^\s]+)\)',
+		
+		'\((else if|elsif|elif) ([^\s]+) ([^\s]+) ([^\s]+)\)',
+		
+		'\(case ([^\s]+) ([^\s]+)\)',
+		'\((else|otherwise(?:\:|)) ([^\s]+)\)',
+		'\(([^\s]+) while ([^\s]+)\)',
+		'\(unless ([^\s]+) ([^\s]+)\)',
+		'\(while ([^\s]+) ([^\s]+)\)',
+		'\(print the type of ([^\s]+)\)',
+		'\(([^\s]+) (is a prime number)\)',
+		'\(([^\s]+) (unless) ([^\s]+)\)',
+		'\(([^\s]+) (divided by) ([^\s]+)\)',
+		'\((the quotient of) ([^\s]+) (and) ([^\s]+)\)',
+		'\(([^\s]+) (>|is greater than|is more than) ([^\s]+)\)',
+		'\(([^\s]+) (<|is less than|is smaller than) ([^\s]+)\)',
+		'\((?:(?:for|foreach|for every|for all|for each)(?: variable (?:named|called)| value of|)) ([^\s]+) (from|(?:starting|beginning) at) ([^\s]+) (to|until|and ending at|through) ([^\s]+)(?:,|\:|) ([^\s]+)\)',
+		'\(([^\s]+) (and) ([^\s]+) (equal each other|have the same value|are (?:equal|the same|identical|multiples of each other|equal to each other))\)',
+		'\((class) ([^\s]+) extends \[([^\s]+)\]\)',
+		'\((class) ([^\s]+) ([^\s]+)\)',
+		'\((func|function|def) ([^\s]+) ([^\s]+)\)',
+		'\((if) ([^\s]+) ([^\s]+)\)',
+		'\(([^\s]+) is a multiple of ([^\s]+)\)',
+		'\((return) ([^\s]+)\)',
+		'\((sum of (everything|(?:each|all|every) (?:number|item|element)(?:s|)) (?:in|of|inside|within)) ([^\s]+)\)',
+		'\(([^\s]+) (and) ([^\s]+)\)',
+		'\((print|puts) ([^\s]+)\)',
+		'\(((?:length|size) of) ([^\s]+)\)',
+		'\(([^\s]+) (is (?:even|an even number))\)',
+		'\(([^\s]+) (!=|is not|isn\'t|ain\'t) ([^\s]+)\)',
+		'\(((?:r|R)eplace (?:the (?:array|string) |))([^\s]+) ((?:in|inside|within)(?: the (?:array|string)|)) ([^\s]+) (with(?: the (?:array|string)|)) ([^\s]+)\)',
+		'\(((?:get|pick|obtain|generate|choose|)(?: |)random (?:item |element |)(?:inside|within|from|from within)) ([^\s]+)\)',
+		'\((Integrate (?:the (?:expression|function)|)) ([^\s]+) (with respect to) ([^\s]+)\)',
+		'\(((?:(?:choose|pick|generate|select|get|find|make|create) |)(?:a |)random (?:number|integer) (?:from|between)) ([^\s]+) (and|to) ([^\s]+)\)',
+		'\(([^\s]+) ((?:is |)(?:in|part of|within|inside|an element of)) ([^\s]+)\)',
+		'\(([^\s]+) (contains) ([^\s]+)\)',
+		'\(([^\s]+) (is divisible by) ([^\s]+)\)',
+		'\((substring (?:of|in)) ([^\s]+) (from|between) ([^\s]+) (to|and) ([^\s]+)\)',
+		'\(((?:the |)(?:sub|)string (?:from|between)) ([^\s]+) (to|and) ([^\s]+) (in(?: the string|)) ([^\s]+)\)',
+		'\(((?:character|letter) at(?: (?:index|position|location)|)) ([^\s]+) (in|inside|within) ([^\s]+)\)',
+		'\((?:character|letter) (in|inside|within) ([^\s]+) (at(?: (?:index|position|location)|)) ([^\s]+)\)',
+		'\(([^\s]+) (matches) ([^\s]+)\)',
+		'\(([^\s]+) (is between) ([^\s]+) (and) ([^\s]+)\)',
+		'\((rotate) ([^\s]+)( by|) ([^\s]+) (degrees)\)',
+		'\(([^\s]+) (to the power of|^) ([^\s]+)\)',
+		'\((shuffle|rearrange|arrange) ([^\s]+) (randomly)\)',
+		'\((randomly (?:shuffle|arrange|rearrange)) ([^\s]+)\)',
+		'\((integrate|integral of) ([^\s]+) (with respect to) ([^\s]+) (between|from) ([^\s]+) (and|to) ([^\s]+)\)',
+		'\((Every string in) ([^\s]+) (contains) ([^\s]+)\)',
+		'\((split|separate) ([^\s]+) (using|with) ([^\s]+)\)',
+		'\((set|let|make) ([^\s]+) (to|be|equal|become) ([^\s]+)\)',
+		'\((replace (?:each|every)) ([^\s]+) (in) ([^\s]+) (with) ([^\s]+)\)',
+		'\(([^\s]+) (' + equals + ') ([^\s]+)\)',
+		'\((?:(?:all|each|every) |)(?:indice|index|occurrence|indexe|(?:loca|posi)tion)(?:s|) (of) ([^\s]+) (in|inside|within) ([^\s]+)\)',
+		'\(([^\s]+) (contains (?:each|all|every) element(?:s|) (?:in|of|inside|within)) ([^\s]+)\)',
+		'\(([^\s]+) (when|if) ([^\s]+)\)',
+		'\((when|if) ([^\s]+)(?: then) ([^\s]+)\)',
+		'\((sort|arrange) ([^\s]+) (from) (largest|biggest|greatest) to ((?:smalle|lea)st)\)',
+		'\((sort|arrange) ([^\s]+) (from) ((?:smalle|lea)st) (to) (largest|biggest|greatest)\)',
+		'\((sort|arrange) ([^\s]+) (in alphabetical order)\)',
+		'\(([^\s]+) ((?:spelled|written|) |)(backwards|reversed|in reverse(?:d|) order)\)',
+		'\(([^\s]+) (is a string)\)',
+		'\(([^\s]+) (is a number)\)',
+		'\(([^\s]+) (is an array)\)',
+		'\(([^\s]+) (is an integer)\)',
+		'\(([^\s]+) (in|inside|within) ([^\s]+) (is between) ([^\s]+) (and) ([^\s]+)\)',
+		'\(([^\s]+) (is between) ([^\s]+) (and) ([^\s]+) (in|inside|within) ([^\s]+)\)',
+		'\(((?:the |)(?:type of|typeOf|typeof)) ([^\s]+)\)',
+		'\((convert|change) ([^\s]+) (from base) ([^\s]+) ((?:to|into) base) ([^\s]+)\)',
+		'\((convert|change) ([^\s]+) ((?:to|into) base) ([^\s]+) (from base) ([^\s]+)\)',
+		'\(([^\s]+) ((?:convert|chang)ed (?:to|into) base) ([^\s]+) (from base) ([^\s]+)\)',
+		'\(([^\s]+) ((?:convert|chang)ed from base) ([^\s]+) ((?:to|into) base) ([^\s]+)\)',
+		'\(([^\s]+) (in base) ([^\s]+) (instead of base) ([^\s]+)\)',
+		'\(([^\s]+) (overlaps with) ([^\s]+)\)',
+		'\(((?:the |)dimensions of) ([^\s]+)\)',
+		'\(([^\s]+) (from) ([^\s]+) (to) ([^\s]+)\)',
+]
+
+theNewArray = []
+
+for current in theOldArray:
+	theNewArray += [re.compile(current)]
+theArray = theNewArray

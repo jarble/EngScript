@@ -1,0 +1,7 @@
+Some algorithms that I want to automatically translate into multiple programming languages:
+
+Parentheses matching:
+http://stackoverflow.com/a/12752226/975097
+
+Check whether ranges overlap:
+http://stackoverflow.com/a/325939/975097

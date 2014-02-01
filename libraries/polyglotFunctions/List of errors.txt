@@ -1,0 +1,1128 @@
+startSwitch is not yet defined for Python
+endSwitch is not yet defined for Python
+startCase is not yet defined for Python
+endCase is not yet defined for Python
+startDefault is not yet defined for Python
+endDefault is not yet defined for Python
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+cannot concatenate 'str' and 'int' objects
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+invalid syntax (<string>, line 1)
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+startSwitch is not yet defined for Falcon
+endSwitch is not yet defined for Falcon
+getComment is not yet defined for Falcon
+puts is not yet defined for Falcon
+getClassEnding is not yet defined for Falcon
+setVar is not yet defined for Falcon
+startCase is not yet defined for Falcon
+endCase is not yet defined for Falcon
+startDefault is not yet defined for Falcon
+endDefault is not yet defined for Falcon
+getCorrespondingTypeWithoutBrackets is not yet defined for Falcon and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Falcon and the type Int
+And is not yet defined for Falcon
+Not is not yet defined for Falcon
+greaterThan is not yet defined for Falcon
+lessThan is not yet defined for Falcon
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+endConditionalBlock is not yet defined for Falcon
+startConditionalBlock is not yet defined for Falcon
+startIf is not yet defined for Falcon
+endIf is not yet defined for Falcon
+initializationRequiresType is not yet defined for Falcon
+getFileExtension is not yet defined for Falcon
+startForEach is not yet defined for Falcon
+startElse is not yet defined for Falcon
+startWhile is not yet defined for Falcon
+getReturnStatement is not yet defined for Falcon
+invalid syntax (<string>, line 1)
+endWhile is not yet defined for Falcon
+endForEach is not yet defined for Falcon
+endMethod is not yet defined for Falcon
+endElseIf is not yet defined for Falcon
+arrayContains is not yet defined for Falcon
+this is not yet defined for Falcon
+methodRequiresReturnType is not yet defined for Falcon
+startMain is not yet defined for Falcon
+endMain is not yet defined for Falcon
+subString is not yet defined for Falcon
+charAt is not yet defined for Falcon
+getCorrespondingTypeWithoutBrackets is not yet defined for Falcon and the type String
+stringLength is not yet defined for Falcon
+split is not yet defined for Falcon
+add is not yet defined for Falcon
+concatenateArrays is not yet defined for Falcon
+endConstructor is not yet defined for Falcon
+getCorrespondingTypeWithoutBrackets is not yet defined for Falcon and the type True
+methodRequiresParameterTypes is not yet defined for Falcon
+typeOf is not yet defined for Falcon
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+getCorrespondingTypeWithoutBrackets is not yet defined for Falcon and the type True
+getCorrespondingTypeWithoutBrackets is not yet defined for Falcon and the type False
+lessThanOrEqual is not yet defined for Falcon
+greaterThanOrEqual is not yet defined for Falcon
+getArrayInitializer is not yet defined for Falcon
+concatenateStrings is not yet defined for Falcon
+invalid syntax (<string>, line 1)
+semicolon is not yet defined for Falcon
+getCorrespondingTypeWithoutBrackets is not yet defined for Falcon and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Falcon and the type string
+getCorrespondingTypeWithoutBrackets is not yet defined for Falcon and the type boolean
+startElseIf is not yet defined for Falcon
+include is not yet defined for Falcon
+Error is not yet defined for Falcon
+args is not yet defined for Falcon
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+startSwitch is not yet defined for Clojure
+endSwitch is not yet defined for Clojure
+puts is not yet defined for Clojure
+getClassEnding is not yet defined for Clojure
+setVar is not yet defined for Clojure
+startCase is not yet defined for Clojure
+endCase is not yet defined for Clojure
+startDefault is not yet defined for Clojure
+endDefault is not yet defined for Clojure
+getCorrespondingTypeWithoutBrackets is not yet defined for Clojure and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Clojure and the type Int
+And is not yet defined for Clojure
+Not is not yet defined for Clojure
+greaterThan is not yet defined for Clojure
+lessThan is not yet defined for Clojure
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+endConditionalBlock is not yet defined for Clojure
+startConditionalBlock is not yet defined for Clojure
+startIf is not yet defined for Clojure
+endIf is not yet defined for Clojure
+initializationRequiresType is not yet defined for Clojure
+getFileExtension is not yet defined for Clojure
+startForEach is not yet defined for Clojure
+startElse is not yet defined for Clojure
+startWhile is not yet defined for Clojure
+getReturnStatement is not yet defined for Clojure
+invalid syntax (<string>, line 1)
+endWhile is not yet defined for Clojure
+endForEach is not yet defined for Clojure
+endCodeBlock is not yet defined for Clojure
+endElseIf is not yet defined for Clojure
+arrayContains is not yet defined for Clojure
+this is not yet defined for Clojure
+methodRequiresReturnType is not yet defined for Clojure
+startMain is not yet defined for Clojure
+endMain is not yet defined for Clojure
+subString is not yet defined for Clojure
+charAt is not yet defined for Clojure
+getCorrespondingTypeWithoutBrackets is not yet defined for Clojure and the type String
+stringLength is not yet defined for Clojure
+split is not yet defined for Clojure
+add is not yet defined for Clojure
+concatenateArrays is not yet defined for Clojure
+endConstructor is not yet defined for Clojure
+getCorrespondingTypeWithoutBrackets is not yet defined for Clojure and the type True
+methodRequiresParameterTypes is not yet defined for Clojure
+typeOf is not yet defined for Clojure
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+getCorrespondingTypeWithoutBrackets is not yet defined for Clojure and the type True
+getCorrespondingTypeWithoutBrackets is not yet defined for Clojure and the type False
+lessThanOrEqual is not yet defined for Clojure
+greaterThanOrEqual is not yet defined for Clojure
+getArrayInitializer is not yet defined for Clojure
+concatenateStrings is not yet defined for Clojure
+invalid syntax (<string>, line 1)
+semicolon is not yet defined for Clojure
+getCorrespondingTypeWithoutBrackets is not yet defined for Clojure and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Clojure and the type string
+getCorrespondingTypeWithoutBrackets is not yet defined for Clojure and the type boolean
+startElseIf is not yet defined for Clojure
+include is not yet defined for Clojure
+Error is not yet defined for Clojure
+args is not yet defined for Clojure
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+puts is not yet defined for Nemerle
+setVar is not yet defined for Nemerle
+startCase is not yet defined for Nemerle
+endCase is not yet defined for Nemerle
+startDefault is not yet defined for Nemerle
+endDefault is not yet defined for Nemerle
+compare is not yet defined for the type int and the language Nemerle
+compare is not yet defined for the type int and the language Nemerle
+And is not yet defined for Nemerle
+Not is not yet defined for Nemerle
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+endConditionalBlock is not yet defined for Nemerle
+startConditionalBlock is not yet defined for Nemerle
+startIf is not yet defined for Nemerle
+endIf is not yet defined for Nemerle
+initializationRequiresType is not yet defined for Nemerle
+getFileExtension is not yet defined for Nemerle
+startForEach is not yet defined for Nemerle
+startWhile is not yet defined for Nemerle
+getReturnStatement is not yet defined for Nemerle
+invalid syntax (<string>, line 1)
+endWhile is not yet defined for Nemerle
+endForEach is not yet defined for Nemerle
+endElseIf is not yet defined for Nemerle
+arrayContains is not yet defined for Nemerle
+this is not yet defined for Nemerle
+methodRequiresReturnType is not yet defined for Nemerle
+startMain is not yet defined for Nemerle
+subString is not yet defined for Nemerle
+charAt is not yet defined for Nemerle
+local variable 'toReturn' referenced before assignment
+stringLength is not yet defined for Nemerle
+split is not yet defined for Nemerle
+add is not yet defined for Nemerle
+concatenateArrays is not yet defined for Nemerle
+endConstructor is not yet defined for Nemerle
+getCorrespondingTypeWithoutBrackets is not yet defined for Nemerle and the type True
+typeOf is not yet defined for Nemerle
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+getCorrespondingTypeWithoutBrackets is not yet defined for Nemerle and the type True
+getCorrespondingTypeWithoutBrackets is not yet defined for Nemerle and the type False
+getArrayInitializer is not yet defined for Nemerle
+concatenateStrings is not yet defined for Nemerle
+invalid syntax (<string>, line 1)
+getCorrespondingTypeWithoutBrackets is not yet defined for Nemerle and the type boolean
+startElseIf is not yet defined for Nemerle
+include is not yet defined for Nemerle
+Error is not yet defined for Nemerle
+args is not yet defined for Nemerle
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+setVar is not yet defined for Vala
+compare is not yet defined for the type int and the language Vala
+compare is not yet defined for the type int and the language Vala
+And is not yet defined for Vala
+Not is not yet defined for Vala
+greaterThan is not yet defined for Vala
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+getCorrespondingTypeWithoutBrackets is not yet defined for Vala and the type String
+invalid syntax (<string>, line 1)
+arrayContains is not yet defined for Vala
+this is not yet defined for Vala
+getCorrespondingTypeWithoutBrackets is not yet defined for Vala and the type String
+subString is not yet defined for Vala
+charAt is not yet defined for Vala
+getCorrespondingTypeWithoutBrackets is not yet defined for Vala and the type String
+stringLength is not yet defined for Vala
+split is not yet defined for Vala
+concatenateArrays is not yet defined for Vala
+getCorrespondingTypeWithoutBrackets is not yet defined for Vala and the type True
+typeOf is not yet defined for Vala
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+getCorrespondingTypeWithoutBrackets is not yet defined for Vala and the type True
+getCorrespondingTypeWithoutBrackets is not yet defined for Vala and the type False
+lessThanOrEqual is not yet defined for Vala
+greaterThanOrEqual is not yet defined for Vala
+getArrayInitializer is not yet defined for Vala
+concatenateStrings is not yet defined for Vala
+invalid syntax (<string>, line 1)
+getCorrespondingTypeWithoutBrackets is not yet defined for Vala and the type string
+getCorrespondingTypeWithoutBrackets is not yet defined for Vala and the type boolean
+include is not yet defined for Vala
+Error is not yet defined for Vala
+args is not yet defined for Vala
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+setVar is not yet defined for AWK
+getCorrespondingTypeWithoutBrackets is not yet defined for AWK and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for AWK and the type Int
+Not is not yet defined for AWK
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+initializationRequiresType is not yet defined for AWK
+invalid syntax (<string>, line 1)
+arrayContains is not yet defined for AWK
+this is not yet defined for AWK
+methodRequiresParameterTypes is not yet defined for AWK
+startMain is not yet defined for AWK
+endMain is not yet defined for AWK
+charAt is not yet defined for AWK
+getCorrespondingTypeWithoutBrackets is not yet defined for AWK and the type String
+split is not yet defined for AWK
+concatenateArrays is not yet defined for AWK
+endConstructor is not yet defined for AWK
+getCorrespondingTypeWithoutBrackets is not yet defined for AWK and the type True
+methodRequiresParameterTypes is not yet defined for AWK
+typeOf is not yet defined for AWK
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+getCorrespondingTypeWithoutBrackets is not yet defined for AWK and the type True
+getCorrespondingTypeWithoutBrackets is not yet defined for AWK and the type False
+lessThanOrEqual is not yet defined for AWK
+getArrayInitializer is not yet defined for AWK
+concatenateStrings is not yet defined for AWK
+invalid syntax (<string>, line 1)
+getCorrespondingTypeWithoutBrackets is not yet defined for AWK and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for AWK and the type string
+getCorrespondingTypeWithoutBrackets is not yet defined for AWK and the type boolean
+startElseIf is not yet defined for AWK
+include is not yet defined for AWK
+Error is not yet defined for AWK
+args is not yet defined for AWK
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+getCorrespondingTypeWithoutBrackets is not yet defined for REBOL and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for REBOL and the type Int
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+endConditionalBlock is not yet defined for REBOL
+startConditionalBlock is not yet defined for REBOL
+startForEach is not yet defined for REBOL
+startElse is not yet defined for REBOL
+invalid syntax (<string>, line 1)
+endElseIf is not yet defined for REBOL
+arrayContains is not yet defined for REBOL
+this is not yet defined for REBOL
+subString is not yet defined for REBOL
+getCorrespondingTypeWithoutBrackets is not yet defined for REBOL and the type String
+stringLength is not yet defined for REBOL
+split is not yet defined for REBOL
+concatenateArrays is not yet defined for REBOL
+endConstructor is not yet defined for REBOL
+getCorrespondingTypeWithoutBrackets is not yet defined for REBOL and the type Int
+typeOf is not yet defined for REBOL
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+invalid syntax (<string>, line 1)
+getCorrespondingTypeWithoutBrackets is not yet defined for REBOL and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for REBOL and the type string
+getCorrespondingTypeWithoutBrackets is not yet defined for REBOL and the type boolean
+startElseIf is not yet defined for REBOL
+include is not yet defined for REBOL
+Error is not yet defined for REBOL
+args is not yet defined for REBOL
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+getCorrespondingTypeWithoutBrackets is not yet defined for OCaml and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for OCaml and the type Int
+Not is not yet defined for OCaml
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+initializationRequiresType is not yet defined for OCaml
+startForEach is not yet defined for OCaml
+invalid syntax (<string>, line 1)
+endForEach is not yet defined for OCaml
+arrayContains is not yet defined for OCaml
+this is not yet defined for OCaml
+endMain is not yet defined for OCaml
+subString is not yet defined for OCaml
+charAt is not yet defined for OCaml
+getCorrespondingTypeWithoutBrackets is not yet defined for OCaml and the type String
+split is not yet defined for OCaml
+concatenateArrays is not yet defined for OCaml
+endConstructor is not yet defined for OCaml
+getCorrespondingTypeWithoutBrackets is not yet defined for OCaml and the type Int
+typeOf is not yet defined for OCaml
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+getArrayInitializer is not yet defined for OCaml
+invalid syntax (<string>, line 1)
+getCorrespondingTypeWithoutBrackets is not yet defined for OCaml and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for OCaml and the type string
+getCorrespondingTypeWithoutBrackets is not yet defined for OCaml and the type boolean
+include is not yet defined for OCaml
+Error is not yet defined for OCaml
+args is not yet defined for OCaml
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+startSwitch is not yet defined for Gambas
+endSwitch is not yet defined for Gambas
+getClassEnding is not yet defined for Gambas
+startCase is not yet defined for Gambas
+endCase is not yet defined for Gambas
+startDefault is not yet defined for Gambas
+endDefault is not yet defined for Gambas
+getCorrespondingTypeWithoutBrackets is not yet defined for Gambas and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Gambas and the type Int
+And is not yet defined for Gambas
+Not is not yet defined for Gambas
+greaterThan is not yet defined for Gambas
+lessThan is not yet defined for Gambas
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+initializationRequiresType is not yet defined for Gambas
+getFileExtension is not yet defined for Gambas
+startForEach is not yet defined for Gambas
+invalid syntax (<string>, line 1)
+arrayContains is not yet defined for Gambas
+this is not yet defined for Gambas
+methodRequiresReturnType is not yet defined for Gambas
+subString is not yet defined for Gambas
+charAt is not yet defined for Gambas
+getCorrespondingTypeWithoutBrackets is not yet defined for Gambas and the type String
+stringLength is not yet defined for Gambas
+split is not yet defined for Gambas
+concatenateArrays is not yet defined for Gambas
+endConstructor is not yet defined for Gambas
+getCorrespondingTypeWithoutBrackets is not yet defined for Gambas and the type True
+methodRequiresParameterTypes is not yet defined for Gambas
+typeOf is not yet defined for Gambas
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+getCorrespondingTypeWithoutBrackets is not yet defined for Gambas and the type True
+getCorrespondingTypeWithoutBrackets is not yet defined for Gambas and the type False
+lessThanOrEqual is not yet defined for Gambas
+greaterThanOrEqual is not yet defined for Gambas
+getArrayInitializer is not yet defined for Gambas
+concatenateStrings is not yet defined for Gambas
+invalid syntax (<string>, line 1)
+semicolon is not yet defined for Gambas
+getCorrespondingTypeWithoutBrackets is not yet defined for Gambas and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Gambas and the type string
+getCorrespondingTypeWithoutBrackets is not yet defined for Gambas and the type boolean
+startElseIf is not yet defined for Gambas
+include is not yet defined for Gambas
+Error is not yet defined for Gambas
+args is not yet defined for Gambas
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+startSwitch is not yet defined for MATLAB
+endSwitch is not yet defined for MATLAB
+getClassEnding is not yet defined for MATLAB
+startCase is not yet defined for MATLAB
+endCase is not yet defined for MATLAB
+startDefault is not yet defined for MATLAB
+endDefault is not yet defined for MATLAB
+getCorrespondingTypeWithoutBrackets is not yet defined for MATLAB and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for MATLAB and the type Int
+And is not yet defined for MATLAB
+Not is not yet defined for MATLAB
+greaterThan is not yet defined for MATLAB
+lessThan is not yet defined for MATLAB
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+startIf is not yet defined for MATLAB
+initializationRequiresType is not yet defined for MATLAB
+startForEach is not yet defined for MATLAB
+startWhile is not yet defined for MATLAB
+getReturnStatement is not yet defined for MATLAB
+invalid syntax (<string>, line 1)
+endForEach is not yet defined for MATLAB
+arrayContains is not yet defined for MATLAB
+this is not yet defined for MATLAB
+methodRequiresReturnType is not yet defined for MATLAB
+subString is not yet defined for MATLAB
+charAt is not yet defined for MATLAB
+getCorrespondingTypeWithoutBrackets is not yet defined for MATLAB and the type String
+stringLength is not yet defined for MATLAB
+split is not yet defined for MATLAB
+concatenateArrays is not yet defined for MATLAB
+endConstructor is not yet defined for MATLAB
+getCorrespondingTypeWithoutBrackets is not yet defined for MATLAB and the type True
+methodRequiresParameterTypes is not yet defined for MATLAB
+typeOf is not yet defined for MATLAB
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+getCorrespondingTypeWithoutBrackets is not yet defined for MATLAB and the type True
+getCorrespondingTypeWithoutBrackets is not yet defined for MATLAB and the type False
+lessThanOrEqual is not yet defined for MATLAB
+greaterThanOrEqual is not yet defined for MATLAB
+getArrayInitializer is not yet defined for MATLAB
+concatenateStrings is not yet defined for MATLAB
+invalid syntax (<string>, line 1)
+semicolon is not yet defined for MATLAB
+getCorrespondingTypeWithoutBrackets is not yet defined for MATLAB and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for MATLAB and the type string
+getCorrespondingTypeWithoutBrackets is not yet defined for MATLAB and the type boolean
+include is not yet defined for MATLAB
+Error is not yet defined for MATLAB
+args is not yet defined for MATLAB
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+startSwitch is not yet defined for Octave
+endSwitch is not yet defined for Octave
+getClassEnding is not yet defined for Octave
+startCase is not yet defined for Octave
+endCase is not yet defined for Octave
+startDefault is not yet defined for Octave
+endDefault is not yet defined for Octave
+getCorrespondingTypeWithoutBrackets is not yet defined for Octave and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Octave and the type Int
+And is not yet defined for Octave
+Not is not yet defined for Octave
+greaterThan is not yet defined for Octave
+lessThan is not yet defined for Octave
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+initializationRequiresType is not yet defined for Octave
+startForEach is not yet defined for Octave
+getReturnStatement is not yet defined for Octave
+invalid syntax (<string>, line 1)
+endForEach is not yet defined for Octave
+arrayContains is not yet defined for Octave
+this is not yet defined for Octave
+methodRequiresReturnType is not yet defined for Octave
+startMain is not yet defined for Octave
+endMain is not yet defined for Octave
+subString is not yet defined for Octave
+charAt is not yet defined for Octave
+getCorrespondingTypeWithoutBrackets is not yet defined for Octave and the type String
+stringLength is not yet defined for Octave
+split is not yet defined for Octave
+add is not yet defined for Octave
+concatenateArrays is not yet defined for Octave
+endConstructor is not yet defined for Octave
+getCorrespondingTypeWithoutBrackets is not yet defined for Octave and the type True
+methodRequiresParameterTypes is not yet defined for Octave
+typeOf is not yet defined for Octave
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+getCorrespondingTypeWithoutBrackets is not yet defined for Octave and the type True
+getCorrespondingTypeWithoutBrackets is not yet defined for Octave and the type False
+lessThanOrEqual is not yet defined for Octave
+greaterThanOrEqual is not yet defined for Octave
+getArrayInitializer is not yet defined for Octave
+invalid syntax (<string>, line 1)
+semicolon is not yet defined for Octave
+getCorrespondingTypeWithoutBrackets is not yet defined for Octave and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Octave and the type string
+getCorrespondingTypeWithoutBrackets is not yet defined for Octave and the type boolean
+startElseIf is not yet defined for Octave
+include is not yet defined for Octave
+Error is not yet defined for Octave
+args is not yet defined for Octave
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+getCorrespondingTypeWithoutBrackets is not yet defined for Visual Basic and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Visual Basic and the type Int
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+arrayContains is not yet defined for Visual Basic
+this is not yet defined for Visual Basic
+subString is not yet defined for Visual Basic
+charAt is not yet defined for Visual Basic
+local variable 'toReturn' referenced before assignment
+split is not yet defined for Visual Basic
+concatenateArrays is not yet defined for Visual Basic
+endConstructor is not yet defined for Visual Basic
+getCorrespondingTypeWithoutBrackets is not yet defined for Visual Basic and the type True
+getCorrespondingTypeWithoutBrackets is not yet defined for Visual Basic and the type int
+typeOf is not yet defined for Visual Basic
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+getCorrespondingTypeWithoutBrackets is not yet defined for Visual Basic and the type True
+getCorrespondingTypeWithoutBrackets is not yet defined for Visual Basic and the type False
+lessThanOrEqual is not yet defined for Visual Basic
+getArrayInitializer is not yet defined for Visual Basic
+concatenateStrings is not yet defined for Visual Basic
+invalid syntax (<string>, line 1)
+getCorrespondingTypeWithoutBrackets is not yet defined for Visual Basic and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Visual Basic and the type boolean
+include is not yet defined for Visual Basic
+Error is not yet defined for Visual Basic
+args is not yet defined for Visual Basic
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+compare is not yet defined for the type Integer and the language Visual Basic .NET
+compare is not yet defined for the type Integer and the language Visual Basic .NET
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+arrayContains is not yet defined for Visual Basic .NET
+this is not yet defined for Visual Basic .NET
+charAt is not yet defined for Visual Basic .NET
+local variable 'toReturn' referenced before assignment
+split is not yet defined for Visual Basic .NET
+concatenateArrays is not yet defined for Visual Basic .NET
+endConstructor is not yet defined for Visual Basic .NET
+typeConversion is not yet defined for Visual Basic .NET from the type Integer to the type String
+typeOf is not yet defined for Visual Basic .NET
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+invalid syntax (<string>, line 1)
+getCorrespondingTypeWithoutBrackets is not yet defined for Visual Basic .NET and the type boolean
+include is not yet defined for Visual Basic .NET
+Error is not yet defined for Visual Basic .NET
+args is not yet defined for Visual Basic .NET
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+startSwitch is not yet defined for Racket
+endSwitch is not yet defined for Racket
+getClassEnding is not yet defined for Racket
+setVar is not yet defined for Racket
+startCase is not yet defined for Racket
+endCase is not yet defined for Racket
+startDefault is not yet defined for Racket
+endDefault is not yet defined for Racket
+getCorrespondingTypeWithoutBrackets is not yet defined for Racket and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Racket and the type Int
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+initializeScalar is not yet defined for Racket with the type String and the initial value 1
+startForEach is not yet defined for Racket
+startWhile is not yet defined for Racket
+invalid syntax (<string>, line 1)
+endWhile is not yet defined for Racket
+endForEach is not yet defined for Racket
+arrayContains is not yet defined for Racket
+this is not yet defined for Racket
+charAt is not yet defined for Racket
+getCorrespondingTypeWithoutBrackets is not yet defined for Racket and the type String
+global name 'string' is not defined
+split is not yet defined for Racket
+concatenateArrays is not yet defined for Racket
+endConstructor is not yet defined for Racket
+getCorrespondingTypeWithoutBrackets is not yet defined for Racket and the type Int
+typeOf is not yet defined for Racket
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+lessThanOrEqual is not yet defined for Racket
+greaterThanOrEqual is not yet defined for Racket
+getArrayInitializer is not yet defined for Racket
+invalid syntax (<string>, line 1)
+getCorrespondingTypeWithoutBrackets is not yet defined for Racket and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Racket and the type string
+getCorrespondingTypeWithoutBrackets is not yet defined for Racket and the type boolean
+include is not yet defined for Racket
+Error is not yet defined for Racket
+args is not yet defined for Racket
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+startSwitch is not yet defined for Common Lisp
+endSwitch is not yet defined for Common Lisp
+getClassEnding is not yet defined for Common Lisp
+setVar is not yet defined for Common Lisp
+startCase is not yet defined for Common Lisp
+endCase is not yet defined for Common Lisp
+startDefault is not yet defined for Common Lisp
+endDefault is not yet defined for Common Lisp
+getCorrespondingTypeWithoutBrackets is not yet defined for Common Lisp and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Common Lisp and the type Int
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+endConditionalBlock is not yet defined for Common Lisp
+startConditionalBlock is not yet defined for Common Lisp
+startIf is not yet defined for Common Lisp
+endIf is not yet defined for Common Lisp
+initializationRequiresType is not yet defined for Common Lisp
+getFileExtension is not yet defined for Common Lisp
+startForEach is not yet defined for Common Lisp
+startElse is not yet defined for Common Lisp
+startWhile is not yet defined for Common Lisp
+getReturnStatement is not yet defined for Common Lisp
+invalid syntax (<string>, line 1)
+endWhile is not yet defined for Common Lisp
+endForEach is not yet defined for Common Lisp
+endElseIf is not yet defined for Common Lisp
+arrayContains is not yet defined for Common Lisp
+this is not yet defined for Common Lisp
+startMain is not yet defined for Common Lisp
+endMain is not yet defined for Common Lisp
+subString is not yet defined for Common Lisp
+charAt is not yet defined for Common Lisp
+getCorrespondingTypeWithoutBrackets is not yet defined for Common Lisp and the type String
+stringLength is not yet defined for Common Lisp
+split is not yet defined for Common Lisp
+concatenateArrays is not yet defined for Common Lisp
+endConstructor is not yet defined for Common Lisp
+getCorrespondingTypeWithoutBrackets is not yet defined for Common Lisp and the type Int
+typeOf is not yet defined for Common Lisp
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+lessThanOrEqual is not yet defined for Common Lisp
+greaterThanOrEqual is not yet defined for Common Lisp
+getArrayInitializer is not yet defined for Common Lisp
+invalid syntax (<string>, line 1)
+getCorrespondingTypeWithoutBrackets is not yet defined for Common Lisp and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Common Lisp and the type string
+getCorrespondingTypeWithoutBrackets is not yet defined for Common Lisp and the type boolean
+startElseIf is not yet defined for Common Lisp
+include is not yet defined for Common Lisp
+Error is not yet defined for Common Lisp
+args is not yet defined for Common Lisp
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+startSwitch is not yet defined for Emacs Lisp
+endSwitch is not yet defined for Emacs Lisp
+puts is not yet defined for Emacs Lisp
+getClassEnding is not yet defined for Emacs Lisp
+setVar is not yet defined for Emacs Lisp
+startCase is not yet defined for Emacs Lisp
+endCase is not yet defined for Emacs Lisp
+startDefault is not yet defined for Emacs Lisp
+endDefault is not yet defined for Emacs Lisp
+getCorrespondingTypeWithoutBrackets is not yet defined for Emacs Lisp and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Emacs Lisp and the type Int
+And is not yet defined for Emacs Lisp
+Not is not yet defined for Emacs Lisp
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+endConditionalBlock is not yet defined for Emacs Lisp
+startConditionalBlock is not yet defined for Emacs Lisp
+startIf is not yet defined for Emacs Lisp
+endIf is not yet defined for Emacs Lisp
+initializationRequiresType is not yet defined for Emacs Lisp
+getFileExtension is not yet defined for Emacs Lisp
+startForEach is not yet defined for Emacs Lisp
+startElse is not yet defined for Emacs Lisp
+startWhile is not yet defined for Emacs Lisp
+getReturnStatement is not yet defined for Emacs Lisp
+invalid syntax (<string>, line 1)
+endWhile is not yet defined for Emacs Lisp
+endForEach is not yet defined for Emacs Lisp
+endElseIf is not yet defined for Emacs Lisp
+arrayContains is not yet defined for Emacs Lisp
+this is not yet defined for Emacs Lisp
+methodRequiresReturnType is not yet defined for Emacs Lisp
+startMain is not yet defined for Emacs Lisp
+endMain is not yet defined for Emacs Lisp
+charAt is not yet defined for Emacs Lisp
+getCorrespondingTypeWithoutBrackets is not yet defined for Emacs Lisp and the type String
+stringLength is not yet defined for Emacs Lisp
+split is not yet defined for Emacs Lisp
+add is not yet defined for Emacs Lisp
+concatenateArrays is not yet defined for Emacs Lisp
+endConstructor is not yet defined for Emacs Lisp
+getCorrespondingTypeWithoutBrackets is not yet defined for Emacs Lisp and the type True
+methodRequiresParameterTypes is not yet defined for Emacs Lisp
+typeOf is not yet defined for Emacs Lisp
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+getCorrespondingTypeWithoutBrackets is not yet defined for Emacs Lisp and the type True
+getCorrespondingTypeWithoutBrackets is not yet defined for Emacs Lisp and the type False
+lessThanOrEqual is not yet defined for Emacs Lisp
+greaterThanOrEqual is not yet defined for Emacs Lisp
+getArrayInitializer is not yet defined for Emacs Lisp
+concatenateStrings is not yet defined for Emacs Lisp
+invalid syntax (<string>, line 1)
+semicolon is not yet defined for Emacs Lisp
+getCorrespondingTypeWithoutBrackets is not yet defined for Emacs Lisp and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Emacs Lisp and the type string
+getCorrespondingTypeWithoutBrackets is not yet defined for Emacs Lisp and the type boolean
+startElseIf is not yet defined for Emacs Lisp
+include is not yet defined for Emacs Lisp
+Error is not yet defined for Emacs Lisp
+args is not yet defined for Emacs Lisp
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+Or is not yet defined for C#
+And is not yet defined for C#
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+concatenateArrays is not yet defined for C#
+unsupported operand type(s) for +: 'int' and 'str'
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+invalid syntax (<string>, line 1)
+getCorrespondingTypeWithoutBrackets is not yet defined for C# and the type boolean
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+this is not yet defined for JavaScript
+cannot concatenate 'str' and 'int' objects
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+invalid syntax (<string>, line 1)
+getCorrespondingTypeWithoutBrackets is not yet defined for JavaScript and the type boolean
+include is not yet defined for JavaScript
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+unsupported operand type(s) for +: 'int' and 'str'
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+invalid syntax (<string>, line 1)
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+compare is not yet defined for the type int and the language C++
+compare is not yet defined for the type int and the language C++
+And is not yet defined for C++
+Not is not yet defined for C++
+greaterThan is not yet defined for C++
+lessThan is not yet defined for C++
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+arrayContains is not yet defined for C++
+this is not yet defined for C++
+subString is not yet defined for C++
+charAt is not yet defined for C++
+stringLength is not yet defined for C++
+split is not yet defined for C++
+concatenateArrays is not yet defined for C++
+endConstructor is not yet defined for C++
+getCorrespondingTypeWithoutBrackets is not yet defined for C++ and the type True
+typeOf is not yet defined for C++
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+getCorrespondingTypeWithoutBrackets is not yet defined for C++ and the type True
+getCorrespondingTypeWithoutBrackets is not yet defined for C++ and the type False
+lessThanOrEqual is not yet defined for C++
+greaterThanOrEqual is not yet defined for C++
+concatenateStrings is not yet defined for C++
+invalid syntax (<string>, line 1)
+include is not yet defined for C++
+Error is not yet defined for C++
+args is not yet defined for C++
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+startSwitch is not yet defined for Perl
+endSwitch is not yet defined for Perl
+startCase is not yet defined for Perl
+endCase is not yet defined for Perl
+startDefault is not yet defined for Perl
+endDefault is not yet defined for Perl
+getCorrespondingTypeWithoutBrackets is not yet defined for Perl and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Perl and the type Int
+Not is not yet defined for Perl
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+startForEach is not yet defined for Perl
+invalid syntax (<string>, line 1)
+endForEach is not yet defined for Perl
+arrayContains is not yet defined for Perl
+this is not yet defined for Perl
+charAt is not yet defined for Perl
+getCorrespondingTypeWithoutBrackets is not yet defined for Perl and the type String
+split is not yet defined for Perl
+concatenateArrays is not yet defined for Perl
+endConstructor is not yet defined for Perl
+getCorrespondingTypeWithoutBrackets is not yet defined for Perl and the type Int
+cannot concatenate 'str' and 'int' objects
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+getArrayInitializer is not yet defined for Perl
+invalid syntax (<string>, line 1)
+getCorrespondingTypeWithoutBrackets is not yet defined for Perl and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Perl and the type string
+getCorrespondingTypeWithoutBrackets is not yet defined for Perl and the type boolean
+include is not yet defined for Perl
+Error is not yet defined for Perl
+args is not yet defined for Perl
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+startSwitch is not yet defined for Lua
+endSwitch is not yet defined for Lua
+startCase is not yet defined for Lua
+endCase is not yet defined for Lua
+startDefault is not yet defined for Lua
+endDefault is not yet defined for Lua
+getCorrespondingTypeWithoutBrackets is not yet defined for Lua and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Lua and the type Int
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+arrayContains is not yet defined for Lua
+this is not yet defined for Lua
+getCorrespondingTypeWithoutBrackets is not yet defined for Lua and the type String
+split is not yet defined for Lua
+concatenateArrays is not yet defined for Lua
+endConstructor is not yet defined for Lua
+getCorrespondingTypeWithoutBrackets is not yet defined for Lua and the type Int
+typeOf is not yet defined for Lua
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+invalid syntax (<string>, line 1)
+getCorrespondingTypeWithoutBrackets is not yet defined for Lua and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Lua and the type string
+getCorrespondingTypeWithoutBrackets is not yet defined for Lua and the type boolean
+include is not yet defined for Lua
+Error is not yet defined for Lua
+args is not yet defined for Lua
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+getCorrespondingTypeWithoutBrackets is not yet defined for Ruby and the type String
+And is not yet defined for Ruby
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+this is not yet defined for Ruby
+getCorrespondingTypeWithoutBrackets is not yet defined for Ruby and the type String
+split is not yet defined for Ruby
+endConstructor is not yet defined for Ruby
+getCorrespondingTypeWithoutBrackets is not yet defined for Ruby and the type String
+cannot concatenate 'str' and 'int' objects
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+invalid syntax (<string>, line 1)
+getCorrespondingTypeWithoutBrackets is not yet defined for Ruby and the type string
+getCorrespondingTypeWithoutBrackets is not yet defined for Ruby and the type boolean
+Error is not yet defined for Ruby
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+getCorrespondingTypeWithoutBrackets is not yet defined for Bash and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Bash and the type Int
+Not is not yet defined for Bash
+greaterThan is not yet defined for Bash
+lessThan is not yet defined for Bash
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+arrayContains is not yet defined for Bash
+this is not yet defined for Bash
+subString is not yet defined for Bash
+charAt is not yet defined for Bash
+getCorrespondingTypeWithoutBrackets is not yet defined for Bash and the type String
+stringLength is not yet defined for Bash
+split is not yet defined for Bash
+concatenateArrays is not yet defined for Bash
+endConstructor is not yet defined for Bash
+getCorrespondingTypeWithoutBrackets is not yet defined for Bash and the type True
+typeOf is not yet defined for Bash
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+getCorrespondingTypeWithoutBrackets is not yet defined for Bash and the type True
+getCorrespondingTypeWithoutBrackets is not yet defined for Bash and the type False
+lessThanOrEqual is not yet defined for Bash
+greaterThanOrEqual is not yet defined for Bash
+getArrayInitializer is not yet defined for Bash
+invalid syntax (<string>, line 1)
+getCorrespondingTypeWithoutBrackets is not yet defined for Bash and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Bash and the type string
+getCorrespondingTypeWithoutBrackets is not yet defined for Bash and the type boolean
+include is not yet defined for Bash
+Error is not yet defined for Bash
+args is not yet defined for Bash
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+this is not yet defined for PHP
+cannot concatenate 'str' and 'int' objects
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+invalid syntax (<string>, line 1)
+include is not yet defined for PHP
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+getCorrespondingTypeWithoutBrackets is not yet defined for Go and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Go and the type Int
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+initializationRequiresType is not yet defined for Go
+invalid syntax (<string>, line 1)
+arrayContains is not yet defined for Go
+this is not yet defined for Go
+concatenateArrays is not yet defined for Go
+endConstructor is not yet defined for Go
+getCorrespondingTypeWithoutBrackets is not yet defined for Go and the type Int
+getCorrespondingTypeWithoutBrackets is not yet defined for Go and the type int
+cannot concatenate 'str' and 'int' objects
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+invalid syntax (<string>, line 1)
+getCorrespondingTypeWithoutBrackets is not yet defined for Go and the type int
+Error is not yet defined for Go
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+this is not yet defined for Haxe
+concatenateArrays is not yet defined for Haxe
+endConstructor is not yet defined for Haxe
+typeConversion is not yet defined for Haxe from the type Int to the type String
+cannot concatenate 'str' and 'int' objects
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+invalid syntax (<string>, line 1)
+args is not yet defined for Haxe
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+startForEach is not yet defined for Haskell
+startWhile is not yet defined for Haskell
+invalid syntax (<string>, line 1)
+endWhile is not yet defined for Haskell
+endForEach is not yet defined for Haskell
+arrayContains is not yet defined for Haskell
+this is not yet defined for Haskell
+subString is not yet defined for Haskell
+split is not yet defined for Haskell
+endConstructor is not yet defined for Haskell
+typeOf is not yet defined for Haskell
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+invalid syntax (<string>, line 1)
+getCorrespondingTypeWithoutBrackets is not yet defined for Haskell and the type boolean
+include is not yet defined for Haskell
+args is not yet defined for Haskell
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+endSwitch is not yet defined for F#
+puts is not yet defined for F#
+getClassEnding is not yet defined for F#
+setVar is not yet defined for F#
+startCase is not yet defined for F#
+endCase is not yet defined for F#
+startDefault is not yet defined for F#
+endDefault is not yet defined for F#
+getCorrespondingTypeWithoutBrackets is not yet defined for F# and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for F# and the type Int
+And is not yet defined for F#
+Not is not yet defined for F#
+greaterThan is not yet defined for F#
+lessThan is not yet defined for F#
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+initializationRequiresType is not yet defined for F#
+getFileExtension is not yet defined for F#
+getReturnStatement is not yet defined for F#
+invalid syntax (<string>, line 1)
+arrayContains is not yet defined for F#
+this is not yet defined for F#
+methodRequiresReturnType is not yet defined for F#
+startMain is not yet defined for F#
+endMain is not yet defined for F#
+subString is not yet defined for F#
+charAt is not yet defined for F#
+getCorrespondingTypeWithoutBrackets is not yet defined for F# and the type String
+stringLength is not yet defined for F#
+split is not yet defined for F#
+add is not yet defined for F#
+concatenateArrays is not yet defined for F#
+endConstructor is not yet defined for F#
+getCorrespondingTypeWithoutBrackets is not yet defined for F# and the type True
+methodRequiresParameterTypes is not yet defined for F#
+typeOf is not yet defined for F#
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+getCorrespondingTypeWithoutBrackets is not yet defined for F# and the type True
+getCorrespondingTypeWithoutBrackets is not yet defined for F# and the type False
+lessThanOrEqual is not yet defined for F#
+greaterThanOrEqual is not yet defined for F#
+getArrayInitializer is not yet defined for F#
+concatenateStrings is not yet defined for F#
+invalid syntax (<string>, line 1)
+semicolon is not yet defined for F#
+getCorrespondingTypeWithoutBrackets is not yet defined for F# and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for F# and the type string
+getCorrespondingTypeWithoutBrackets is not yet defined for F# and the type boolean
+include is not yet defined for F#
+Error is not yet defined for F#
+args is not yet defined for F#
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+setVar is not yet defined for Erlang
+getCorrespondingTypeWithoutBrackets is not yet defined for Erlang and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Erlang and the type Int
+Not is not yet defined for Erlang
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+startForEach is not yet defined for Erlang
+startWhile is not yet defined for Erlang
+invalid syntax (<string>, line 1)
+endWhile is not yet defined for Erlang
+endForEach is not yet defined for Erlang
+arrayContains is not yet defined for Erlang
+this is not yet defined for Erlang
+charAt is not yet defined for Erlang
+local variable 'toReturn' referenced before assignment
+split is not yet defined for Erlang
+concatenateArrays is not yet defined for Erlang
+endConstructor is not yet defined for Erlang
+getCorrespondingTypeWithoutBrackets is not yet defined for Erlang and the type Int
+typeOf is not yet defined for Erlang
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+getArrayInitializer is not yet defined for Erlang
+invalid syntax (<string>, line 1)
+getCorrespondingTypeWithoutBrackets is not yet defined for Erlang and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Erlang and the type boolean
+include is not yet defined for Erlang
+Error is not yet defined for Erlang
+args is not yet defined for Erlang
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+startSwitch is not yet defined for Ada
+puts is not yet defined for Ada
+getClassEnding is not yet defined for Ada
+setVar is not yet defined for Ada
+startCase is not yet defined for Ada
+startDefault is not yet defined for Ada
+endDefault is not yet defined for Ada
+getCorrespondingTypeWithoutBrackets is not yet defined for Ada and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Ada and the type Int
+And is not yet defined for Ada
+Not is not yet defined for Ada
+greaterThan is not yet defined for Ada
+lessThan is not yet defined for Ada
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+startIf is not yet defined for Ada
+initializationRequiresType is not yet defined for Ada
+startForEach is not yet defined for Ada
+startWhile is not yet defined for Ada
+getReturnStatement is not yet defined for Ada
+invalid syntax (<string>, line 1)
+arrayContains is not yet defined for Ada
+this is not yet defined for Ada
+methodRequiresReturnType is not yet defined for Ada
+startMain is not yet defined for Ada
+endMain is not yet defined for Ada
+subString is not yet defined for Ada
+charAt is not yet defined for Ada
+getCorrespondingTypeWithoutBrackets is not yet defined for Ada and the type String
+stringLength is not yet defined for Ada
+split is not yet defined for Ada
+add is not yet defined for Ada
+concatenateArrays is not yet defined for Ada
+endConstructor is not yet defined for Ada
+getCorrespondingTypeWithoutBrackets is not yet defined for Ada and the type True
+methodRequiresParameterTypes is not yet defined for Ada
+typeOf is not yet defined for Ada
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+getCorrespondingTypeWithoutBrackets is not yet defined for Ada and the type True
+getCorrespondingTypeWithoutBrackets is not yet defined for Ada and the type False
+lessThanOrEqual is not yet defined for Ada
+greaterThanOrEqual is not yet defined for Ada
+getArrayInitializer is not yet defined for Ada
+concatenateStrings is not yet defined for Ada
+invalid syntax (<string>, line 1)
+semicolon is not yet defined for Ada
+getCorrespondingTypeWithoutBrackets is not yet defined for Ada and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for Ada and the type string
+getCorrespondingTypeWithoutBrackets is not yet defined for Ada and the type boolean
+startElseIf is not yet defined for Ada
+include is not yet defined for Ada
+Error is not yet defined for Ada
+args is not yet defined for Ada
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+startSwitch is not yet defined for bc
+endSwitch is not yet defined for bc
+startCase is not yet defined for bc
+endCase is not yet defined for bc
+startDefault is not yet defined for bc
+endDefault is not yet defined for bc
+getCorrespondingTypeWithoutBrackets is not yet defined for bc and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for bc and the type Int
+And is not yet defined for bc
+Not is not yet defined for bc
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+startForEach is not yet defined for bc
+invalid syntax (<string>, line 1)
+endForEach is not yet defined for bc
+endElseIf is not yet defined for bc
+arrayContains is not yet defined for bc
+this is not yet defined for bc
+subString is not yet defined for bc
+charAt is not yet defined for bc
+getCorrespondingTypeWithoutBrackets is not yet defined for bc and the type String
+stringLength is not yet defined for bc
+split is not yet defined for bc
+concatenateArrays is not yet defined for bc
+endConstructor is not yet defined for bc
+getCorrespondingTypeWithoutBrackets is not yet defined for bc and the type True
+typeOf is not yet defined for bc
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+getCorrespondingTypeWithoutBrackets is not yet defined for bc and the type True
+getCorrespondingTypeWithoutBrackets is not yet defined for bc and the type False
+lessThanOrEqual is not yet defined for bc
+greaterThanOrEqual is not yet defined for bc
+getArrayInitializer is not yet defined for bc
+concatenateStrings is not yet defined for bc
+invalid syntax (<string>, line 1)
+getCorrespondingTypeWithoutBrackets is not yet defined for bc and the type int
+getCorrespondingTypeWithoutBrackets is not yet defined for bc and the type string
+getCorrespondingTypeWithoutBrackets is not yet defined for bc and the type boolean
+startElseIf is not yet defined for bc
+include is not yet defined for bc
+Error is not yet defined for bc
+args is not yet defined for bc
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+invalid syntax (<string>, line 1)
+global name 'string' is not defined
+cannot concatenate 'str' and 'list' objects
+cannot concatenate 'str' and 'int' objects
+callFunctionWithNamedArgs() takes exactly 4 arguments (0 given)
+invalid syntax (<string>, line 1)
+'function' object has no attribute '__getitem__'
+name 'String1' is not defined

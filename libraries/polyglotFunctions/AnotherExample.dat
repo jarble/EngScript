@@ -1,0 +1,4 @@
+module
+	class 'ASampleClass'
+		function switchExample('x')
+			print "Hi!";

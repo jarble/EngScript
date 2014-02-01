@@ -1,0 +1,1 @@
+module(getClass('ASampleClass', [Not yet defined for crosslanguage in syntaxRules.py: (def|function) functionName parameterNames body]))

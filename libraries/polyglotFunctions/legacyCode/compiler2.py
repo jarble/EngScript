@@ -1,0 +1,3 @@
+from polyglotFunctions import *
+
+startMethod()
