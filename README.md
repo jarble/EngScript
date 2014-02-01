@@ -4,6 +4,8 @@ You can write programs in plain English and automatically compile them to Python
 
 For a working demo of EngScript, see [main.py](main.py).
 
+The language's grammar is defined in [englishToPython.py](EnglishToPython.py).
+
 Some useful code samples:
 ----
 	#Create a string from a file
