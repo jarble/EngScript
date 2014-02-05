@@ -5,10 +5,38 @@ from libraries import syntaxRules
 import englishToPython
 testMacro = syntaxRules.testMacro
 
+
+print testMacro(englishToPython.englishToPython,
+'''
+#Create a string from a file
+print{create a string from the file called "README.txt"}
+
+#Save a string as a file
+print{save the string "Woohoo!" to a file called "ExampleText.txt"}
+
+#Get the first few letters of a string
+print{the first 3 letters of "EngScript"}
+#This prints "Eng".
+
+#print the length of a string
+print{the length of "Hello World!"}
+
+#The following two statements have exactly the same meaning.
+let x be 1
+x = 1
+
+x = (the sum of x and 1)
+if ((x) is not equal to (7)) :
+	print x
+'''
+)
+
 exec testMacro(englishToPython.englishToPython,
 '''
 #This is some EnglishScript code.
-
+import copy
+import random
+import math
 from libraries import syntaxRules as herpy
 import pythonFunctions
 
@@ -23,12 +51,14 @@ print{the greatest common factor of 25 and 100}
 #print{the common factors of [10, 14, 100, 25]}
 
 print{"Hi!"}.
+make an empty file called "empty_file.txt"
+print (something taken randomly from [1,2,3,4,5,6])
 print{["hello", "world", "herp", "derp"] in alphabetical order}.
 print{arrange ["hello", "world", "herp", "derp"] in alphabetical order}
 print{["hello", "world", "herp", "derp"] arranged in alphabetical order}
-print{the biggest number in [3,4,5,3,2]}
+print{the smallest number in [3,4,5,3,2]}
 #Each of these macros are defined using makeDefinitionList.
-print{the first 2 items in ["foo", "bar", "baz"]}
+print (the first 2 items in ["foo", "bar", "baz"])
 churp = [1,[2,1],3,4,5].
 print "Printing something in churp".
 print{(churp[1][1]) + (churp[0])}
@@ -42,6 +72,8 @@ print{every match of the regular expression "(h(?:a|e)llo|halo)" in the string "
 print{the longest string in ["hell", "herp", "wha"]}
 print{"Longest match in string:"}.
 print{longest match of the regular expression "(h(?:a|e)llo|halo)" in the string "hallo hello halo"}.
+print{"Location of e in hello"}
+print{find "e" in "hello"}
 
 def herp
 	def derp
@@ -63,7 +95,7 @@ print(split "hello" using "e")
 print{"g".join{"Hello".split{"l"}}}
 x=1; y=2
 
-if x == 1
+if (x == 1) :
 	print x
 
 str1 = "**derp**"
@@ -85,7 +117,7 @@ x = 1
 print{"x is " + (x converted to type str)}
 print{the type of x}
 print{"1" and "2" have the same length}
-if (x == 3)
+if (x == 3) :
 	print{x}
 while (x == 3)
 	print{x}
@@ -118,7 +150,7 @@ ensure that (4 != 5)
 print{3 < 4 < 5}
 print{10 > 7 > 5}
 x = 1
-if (x == 1)
+if (x == 1) :
 	print x
 z := 3
 print (using the delimiter "e" split the string "hello")
@@ -187,8 +219,25 @@ print{it is false that (10 is a multiple of 5)}
 print{3 ^ 3}
 transform the string "Hello stuff" into a file named "exampleOfSomeStuff.txt"
 save the string "Hello stuff! Woohoo!" to a file named "exampleOfSomeStuff_1.txt"
-print{create a string from the file called "README.txt"}
+print{create a string from the file called "README.md"}
 save a copy of the file "exampleOfSomeStuff.txt" called "theSampleCopy.txt"
+print{(a list of punctuation marks) arranged randomly}
+
+#print{a random number between 3 and 4}
+
+print{range of integers between 3 and 100}
+
+for current in (split "herp,derp,lol" with the separator ",")
+	def randomlyPickedPunctuationMark
+		return (pick random from (the list of punctuation marks))
+	print{current+(randomlyPickedPunctuationMark{}) + (randomlyPickedPunctuationMark{}) + (randomlyPickedPunctuationMark{})}
+print{(7 is 1 more than 6) and (5 is 2 less than 7)}
+print{2 to the power of 5}
+print{the negation of True}
+
+set goofy to "This is a new macro"
+print goofy
+
 '''
 )
 
@@ -197,7 +246,10 @@ def printUnimplementedMacros(theString):
 	theStrings = [name for name in theStrings if name.strip()]
 	for current in theStrings:
 		try:
-			testMacro(englishToPython.englishToPython, current)
+			outputString = testMacro(englishToPython.englishToPython, current)
+			print("The output of " + current + " is " + outputString)
+			print("The result of this output string is ")
+			exec outputString
 		except Exception as e:
 			print e
 
@@ -211,6 +263,15 @@ least common multiple of 12 and 14
 save the string "This is a file!" to a file named "exampleFile.txt"
 write the string "This is a file!" as a file named "exampleFile.txt"
 create a string from the file called "exampleFile.txt"
+let x be 8
+let y be 8
+print{"The sum of x and y:"}
+print{the square root of (the sum of x and y)}
+print{a copy of [1,2,3,4,5]}
+print{copy of [1,2,3,4,5]}
+print{the type of every variable in [1,"string","hello"]}
+print{every variable in [1,"string","hello"] has the same type}
+print{delete index 3 in [1,2,3,4]}
 ''')
 		
 sampleGrammar = [
@@ -218,3 +279,7 @@ sampleGrammar = [
 ]
 
 #exec testMacro(sampleGrammar, 'now I say "derp"')
+
+print(random.shuffle(["3", "5", "10"]))
+
+#print(q)

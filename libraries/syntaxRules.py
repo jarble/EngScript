@@ -82,6 +82,8 @@ for i in range(0, len(syntaxRules)):
 def makeSyntaxRules(syntaxRules):
 	for i in range (0, len(syntaxRules)):
 		#print(i)
+		if(type(syntaxRules[i][0]) == str):
+			syntaxRules[i][0] = [syntaxRules[i][0]]
 		current = syntaxRules[i]
 		for j in range(0, (len(syntaxRules[i][0]))):
 			syntaxRules[i][0][j] = fixSyntax(syntaxRules[i][0][j])

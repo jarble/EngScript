@@ -1,6 +1,9 @@
 EngScript is an intuitive and extensible English-like programming language.
 
-You can write programs in plain English and automatically compile them to Python code.
+EngScript is a dialect of the English language that can be automatically translated into Python code.
+In other words, you can write programs in plain English and automatically compile them to Python code.
+
+It's MIT-licensed, so it can be used in open-source software projects as well as commercial ones.
 
 For a working demo of EngScript, see [main.py](main.py).
 

@@ -1,5 +1,7 @@
 englishToPython = [
 	#Start of final outputs
+	[["(delete|remove) index <<foo>> (in|of|inside|within) <<bar>>"], "<<foo>>.pop(<<index>>)", "final"],
+	[["for <<foo>> in <<bar>> : <<baz>>", "for <<foo>> in <<bar>> <<baz>>"], "for <<foo>> in <<bar>> :\n#indent\n <<baz>> \n#unindent\n", "final"],
 	[["(get|create|generate) a string from the file (call|nam)ed <<foo>>"], "pythonFunctions.stringFromTextFile(<<foo>>)", "final"],
 	[["save the string <<foo>> (as|to) a file (nam|call)ed <<bar>>", "transform the string <<foo>> into a file named <<bar>>", "(create|generate|produce) a file called <<bar>> from a string (call|nam)ed <<foo>>"], "pythonFunctions.writeStringToFile(<<bar>>, <<foo>>)", "final"],
 	[["import <<foo>> from <<bar>> as <<baz>>", "from <<bar>> import <<foo>> as <<baz>>", "import <<foo>> as <<baz>> from <<bar>>"], "from <<bar>> import <<foo>> as <<baz>>", "final"],
@@ -56,16 +58,17 @@ englishToPython = [
 	[["<<foo>> (==|= =|equals|is equal to) <<bar>>"], "(<<foo>> == <<bar>>)", "final"],
 	[["<<foo>> (=) <<bar>>"], "<<foo>> = <<bar>>", "final"],
 	[["<<foo>> (\^|to the power of|\*\*) <<bar>>"], "(<<foo>> ** <<bar>>)", "final"],
-	[["(if) <<foo>> (:) <<bar>>", "(if) <<foo>> (then) <<bar>>", "<<bar>> (if|if and only if) <<foo>>", "(if) <<foo>> <<bar>>"], dict(Python="if <<foo>>:\n#indent\n<<bar>>\n#unindent\n", Java="if(foo){ <<bar>> }", JavaScript="if(foo){ <<bar>> }"), "final"],
+	[["(if) <<foo>> (:) <<bar>>", "(if) <<foo>> (then) <<bar>>", "<<bar>> (if|if and only if) <<foo>>"], dict(Python="if <<foo>>:\n#indent\n<<bar>>\n#unindent\n", Java="if(foo){ <<bar>> }", JavaScript="if(foo){ <<bar>> }"), "final"],
 	[["((?:|do this |keep doing this )while) <<x>> (\:) <<y>>", "<<y>> (while) <<x>>", "((?:|do this |keep doing this )while) <<x>> <<y>>"], dict(Python="while <<x>>:\n#indent\n<<y>>\n#unindent\n", Java="while(<<x>>){ <<y>> }"), "final"],
 	[["(not|\!) <<foo>>"], "(not <<foo>>)", "final"],
 	[["<<foo>> (%) <<bar>>"], "(<<foo>> % <<bar>>)", "final"],
+	[["the negation of <<foo>>"], "! <<foo>>"],
 	
 	[["(function) <<static>> <<returnType>> <<functionName>> <<parameterNames>> <<parameterTypes>> <<body>>"],
 	"def <<functionName>> <<parameterNames>>:\n#indent\n<<body>>\n#unindent\n",
 	"final"],
 	
-	[["(for) <<foo>> <<bar>> <<baz>> <<biff>>", "(for) <<foo>> (;) <<bar>> (;) <<baz>> <<biff>>"], dict(JavaScript="for(<<foo>>; <<bar>>; <<baz>>){ <<biff>> }"), "final"],
+	[["(for) <<foo>> ; <<bar>> ; <<baz>> <<biff>>", "(for) <<foo>> (;) <<bar>> (;) <<baz>> <<biff>>"], dict(JavaScript="for(<<foo>>; <<bar>>; <<baz>>){ <<biff>> }"), "final"],
 	
 	[["(convert|change) <<foo>> (from base(?:|s)) <<bar>> ((?:to|into)(?:| base)) <<baz>>", 
 	"(convert|change) <<foo>> ((?:to|into) base) <<baz>> (from base) <<bar>>",
@@ -97,7 +100,7 @@ englishToPython = [
 	[["(insert|put) <<obj>> (after the index) <<index>> ((?:inside|in) the (?:list|array)) <<list>>"], dict(Python="insertIntoList(<<list>>, <<index>>+1, <<obj>>)"), "final"],
 	[["(insert|put) <<obj>> (before the index) <<index>> ((?:inside|in) the (?:list|array)) <<list>>"], dict(Python="insertIntoList(<<list>>, <<index>>, <<obj>>)"), "final"],
 	
-	[["((?:every|each|all) integer(?:s|) (?:between|from)) <<foo>> (and|to) <<bar>>"], dict(Python="range(<<foo>>+1, <<bar>>)"), "final"],
+	[["((?:every|each|all) integer(?:s|) (?:between|from)) <<foo>> (and|to) <<bar>>"], dict(Python="range(<<foo>>, <<bar>>)"), "final"],
 	[["((?:join|merge) the (?:array|strings)) <<array>> ((?:with|using) the separator) <<separator>>"], dict(Python="<<separator>>.join(<<array>>)"),"final"],
 	[["<<foo>> (written|spelled) backwards"], dict(Python="<<foo>>[::-1]"), "final"],
 	[["(wait) <<seconds>> (seconds)"], dict(Python="time.sleep(<<seconds>>)"), "final"],
@@ -120,7 +123,7 @@ englishToPython = [
 	#End of final outputs, and beginning of non-final outputs
 	[["<<foo>> is a prime number"], "pythonFunctions.is_prime{<<foo>>}"],
 	[["least common multiple of <<foo>> and <<bar>>"], "pythonFunctions.lcm{<<foo>>, <<bar>>}"],
-	[["the greatest common factor of <<foo>> and <<bar>>"], "pythonFunctions.gcd{<<foo>>, <<bar>>}"],
+	[["(|the )greatest common factor of <<foo>> and <<bar>>"], "pythonFunctions.gcd{<<foo>>, <<bar>>}"],
 	[["ensure that <<foo>>", "ensure that <<foo>> ;", "<<foo>> (must|should|ought to) be true"], "if (<<foo>> == False) then (raise Exception{'Something is wrong!'})"],
 	[["the last index (of|in) the array <<foo>>"], "(the length of <<foo>>) - 1"],
 	#[["split the string <<foo>> at index <<bar>>"], "split the string <<foo>> from index <<bar>> to index <<baz>> , "],
@@ -152,8 +155,7 @@ englishToPython = [
 	[["<<foo>> (- -|\-\-)"], "<<foo>> -= 1"],
 	[["<<foo>> (unless) <<bar>>", "(unless) <<bar>> <<foo>>"], "<<foo>> if (not <<bar>>)"],
 	[["<<foo>> (is (?:divisible by|a multiple of)) <<bar>>", "<<bar>> (is a factor of) <<foo>>"], "(<<foo>> % <<bar>>) == 0"],
-	[["(until) <<x>> (:) <<y>>", "<<y>> (until) <<x>>"], "<<y>> while (not <<x>>)"],
-	[["(for(?: every| each| all|)) <<foo>> (from|between) <<bar>> (to|and) <<baz>> <<biff>>"], "for (var <<foo>> = <<bar>>) (<<foo>> < <<baz>>) (<<foo>> ++) <<biff>>"],
+	[["(until) <<x>> (:) <<y>>"], "while (not x) y"],
 	[["(the product of) <<bar>> (and) <<baz>>"], "<<bar>> multiplied by <<baz>>"],
 	[["(the quotient of) <<foo>> (and) <<bar>>"], "<<foo>> divided by <<bar>>"],
 	#[["<<foo>> (divided by) <<bar>>"], "<<foo>> / <<bar>>"]
@@ -224,5 +226,27 @@ englishToPython = [
 	[["it is true that <<foo>>"], "<<foo>> is true"],
 	[["it is (false|(not |un)true) that <<foo>>"], "<<foo>> is not true"],
 	[["(the |)greatest common (factor|denominator) of <<foo>>"], "pythonFunctions.gcm{<<foo>>}"],
-	[["(save|make|create|generate) a copy of (|the file (|called ))<<foo>> (called|named|and call it|and name it) <<bar>>"], "save the string (create a string from the file called <<foo>>) to a file named <<bar>>"]
+	[["(save|make|create|generate) a copy of (|the file (|called ))<<foo>> (called|named|and call it|and name it) <<bar>>"], "save the string (create a string from the file called <<foo>>) to a file named <<bar>>"],
+	["(|(a|the) )list of punctuation marks", "['!', '?', '.']"],
+	[["(shuffle|(re|)arrange) <<foo>> randomly", "randomly (shuffle|(re|)arrange) <<foo>>", "<<foo>> (shuffled|(re|)arranged|sorted) randomly"], "random.sample{<<foo>>, (the length of <<foo>>)}"],
+	[["((range of |all)integers|(every|each) integer) between <<foo>> and <<bar>>"], "range{<<foo>>, <<bar>>}"],
+	[["<<foo>> is <<bar>> less than <<baz>>"], "<<foo>> == (<<baz>> - <<bar>>)"],
+	[["<<foo>> is <<bar>> (more|greater) than <<baz>>"], "<<foo>> == (<<bar>> + <<baz>>)"],
+	[["the prime factors of <<foo>>"], "every bar in (the factors of <<foo>>) that meets the condition (bar is a factor of <<foo>>)"],
+	[["(set|initialize) <<foo>> to <<bar>>", "let <<foo>> (be|equal) <<bar>>"], "<<foo>> = <<bar>>"],
+	[["(the (location|position) of|find) <<foo>> in <<bar>>"], "search recursively for <<foo>> in the array <<bar>>"],
+	[["something (picked|chosen|selected|taken) (at random|randomly) from <<foo>>"], "pick random from <<foo>>"],
+	[["(create|make|generate) an empty file called <<foo>>"], "save the string '' as a file called <<foo>>"],
+	[["(a |)copy of <<foo>>"], "copy.deepcopy{<<foo>>}"],
 	]
+	
+'''
+#This is what the new version of this should look like.
+output:
+	pick random from <<foo>>
+input:
+	something taken randomly from <<foo>>
+	get something randomly from <<foo>>
+	(choose|pick|select) something from <<foo>>	
+'''
+	
