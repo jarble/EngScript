@@ -117,7 +117,7 @@ englishToPython = [
 	[["<<foo>> ((?:start|begin)s with) <<bar>>"], dict(Python="<<foo>>.startswith(<<bar>>)"), "final"],
 	[["<<foo>> (ends with) <<bar>>"], dict(Python="<<foo>>.endswith(<<bar>>)"), "final"],
 	[["((?:search recursively|recursive(?:|ly) search) for) <<toFind>> (in the array) <<theArray>>", "(search for) <<toFind>> (recursively in the array) <<theArray>>"], dict(Python="pythonFunctions.recursiveArraySearch(<<toFind>>, <<theArray>>)"), "final"],
-	[["(every|each) <<item>> (in|inside|within) <<list>> ((?:that|which) (?:satisfie|meet)s the condition) <<conditional>>"], dict(Python="[<<item>> for <<item>> in <<list>> if <<conditional>>]"), "final"],
+	[["(every|each) <<item>> (in|inside|within) <<list>> ((that|which) (satisfie|meet|matche)s (the|this) condition(|:)) <<conditional>>"], dict(Python="[<<item>> for <<item>> in <<list>> if <<conditional>>]"), "final"],
 	[["<<foo>> ((?:|arranged |sorted )in alphabetical order)", "(arrange|sort) <<foo>> (in alphabetical order)"], "sorted(<<foo>>)", "final"],
 	
 	#End of final outputs, and beginning of non-final outputs
@@ -238,6 +238,8 @@ englishToPython = [
 	[["something (picked|chosen|selected|taken) (at random|randomly) from <<foo>>"], "pick random from <<foo>>"],
 	[["(create|make|generate) an empty file called <<foo>>"], "save the string '' as a file called <<foo>>"],
 	[["(a |)copy of <<foo>>"], "copy.deepcopy{<<foo>>}"],
+	["(each|every) <<x>> (in|inside|within) <<array>> (where|(such|so) that) <<y>>", "every <<x>> in <<array>> that matches the condition <<y>>"],
+	[["((do|repeat)(| this)) <<foo>> times: <<bar>>"], "for _ in (every integer from 0 to <<foo>>) : <<bar>>"],
 	]
 	
 '''

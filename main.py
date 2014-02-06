@@ -33,6 +33,8 @@ if ((x) is not equal to (7)) :
 
 exec testMacro(englishToPython.englishToPython,
 '''
+print "Demonstration of new list comprehension syntax"
+print (each x inside [1,2,3,4,5,6] such that (x is divisible by 2))
 #This is some EnglishScript code.
 import copy
 import random
@@ -46,6 +48,14 @@ import re
 import numpy
 import choice from random
 import time
+
+do this 3 times:
+	print "Wow!"
+
+repeat 100 times:
+	print "Hello!"
+
+each x in  [11, 13, 16, 19] that meets this condition: (x is a prime number)
 
 print{the greatest common factor of 25 and 100}
 #print{the common factors of [10, 14, 100, 25]}
@@ -124,6 +134,10 @@ while (x == 3)
 	x += 1
 	x *= 1
 	x -= 1
+
+class woop:
+	pass
+
 for each i in (each integer from 0 to 4)
 	print{replace every "l" in "hello" with "r"}
 	print{i}

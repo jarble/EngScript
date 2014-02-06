@@ -11,6 +11,19 @@ The language's grammar is defined in [englishToPython.py](englishToPython.py).
 
 Some useful code samples:
 ----
+	#Print the first 3 letters of a word
+	print (the first 3 letters of "Hello")
+	
+	#Repeat an action a certain number of times.
+	repeat 3 times:
+		print "Hello!"
+	
+	#Check whether a number is prime
+	x = 15
+	
+	if ((x is a prime number) and (x is a factor of 10)) :
+		print x
+	
 	#Create a string from a file
 	print{create a string from the file called "README.txt"}
 	
