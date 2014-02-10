@@ -1,5 +1,6 @@
 englishToPython = [
 	#Start of final outputs
+	[["<<foo>> contains ((|everything in|(all|each|every one) of )these( items| things|):) <<bar>>", "everything in <<foo>> is in <<bar>>"], "all(x in <<foo>> for x in <<bar>>)", "final"],
 	[["(delete|remove) index <<foo>> (in|of|inside|within) <<bar>>"], "<<foo>>.pop(<<index>>)", "final"],
 	[["for <<foo>> in <<bar>> : <<baz>>", "for <<foo>> in <<bar>> <<baz>>"], "for <<foo>> in <<bar>> :\n#indent\n <<baz>> \n#unindent\n", "final"],
 	[["(get|create|generate) a string from the file (call|nam)ed <<foo>>"], "pythonFunctions.stringFromTextFile(<<foo>>)", "final"],
@@ -8,7 +9,7 @@ englishToPython = [
 	[["from <<foo>> import <<bar>>", "import <<bar>> from <<foo>>"], "from <<foo>> import <<bar>>", "final"],
 	[["<<foo>> {}"], "<<foo>>()", "final"],
 	[["<<foo>> is an anagram of <<bar>>"], "(sorted(<<foo>>) == sorted(<<bar>>))", "final"],
-	[["(pick|choose|select|get) random(|ly) (from|in) <<foo>>"], "choice(<<foo>>)", "final"],
+	[["(pick|choose|select|get) random(|ly) (from|in) <<foo>>"], "random.choice(<<foo>>)", "final"],
 	#[["<<type>> <<varName>> (=) <<value>> (;)"], "<<type>> <<varName>> = <<value>>;", "final"],
 	[["(|the )(short|small)est string in <<foo>>"], dict(Python="min(<<foo>>, key=len)"), "final"],
 	[["(|the )((long|bigg|larg)est) string in <<foo>>"], dict(Python="max(<<foo>>, key=len)"), "final"],
@@ -57,7 +58,7 @@ englishToPython = [
 	[["<<foo>> (divided by|\/) <<bar>>"], "(<<foo>> / <<bar>>)", "final"],
 	[["<<foo>> (==|= =|equals|is equal to) <<bar>>"], "(<<foo>> == <<bar>>)", "final"],
 	[["<<foo>> (=) <<bar>>"], "<<foo>> = <<bar>>", "final"],
-	[["<<foo>> (\^|to the power of|\*\*) <<bar>>"], "(<<foo>> ** <<bar>>)", "final"],
+	[["<<foo>> (to the power of|\*\*) <<bar>>"], "(<<foo>> ** <<bar>>)", "final"],
 	[["(if) <<foo>> (:) <<bar>>", "(if) <<foo>> (then) <<bar>>", "<<bar>> (if|if and only if) <<foo>>"], dict(Python="if <<foo>>:\n#indent\n<<bar>>\n#unindent\n", Java="if(foo){ <<bar>> }", JavaScript="if(foo){ <<bar>> }"), "final"],
 	[["((?:|do this |keep doing this )while) <<x>> (\:) <<y>>", "<<y>> (while) <<x>>", "((?:|do this |keep doing this )while) <<x>> <<y>>"], dict(Python="while <<x>>:\n#indent\n<<y>>\n#unindent\n", Java="while(<<x>>){ <<y>> }"), "final"],
 	[["(not|\!) <<foo>>"], "(not <<foo>>)", "final"],
@@ -138,7 +139,7 @@ englishToPython = [
 	[["<<foo>> ((?:%|percent) of) <<bar>>"], "((<<bar>> / 100) * <<foo>>)"],
 	[["<<foo>> (\=) <<bar>> (\+) <<baz>>"], "<<foo>> = (<<bar>> + <<baz>>)"],
 	[["<<foo>> (\=) <<bar>> (\-) <<baz>>"], "<<foo>> = (<<bar>> - <<baz>>)"],
-	[["<<foo>> (\=) <<bar>> (\^) <<baz>>"], "<<foo>> = (<<bar>> ^ <<baz>>)"],
+	[["<<foo>> (\=) <<bar>> (\^) <<baz>>"], "<<foo>> = (<<bar>> to the power of <<baz>>)"],
 	[["<<foo>> (\=) <<bar>> (\*) <<baz>>"], "<<foo>> = (<<bar>> * <<baz>>)"],
 	[["<<foo>> (\=) <<bar>> (\%) <<baz>>"], "<<foo>> = (<<bar>> % <<baz>>)"],
 	[["<<foo>> (is between) <<bar>> (and) <<baz>>"], "(<<bar>> < <<foo>>) and (<<foo>> < <<baz>>)"],
@@ -240,6 +241,12 @@ englishToPython = [
 	[["(a |)copy of <<foo>>"], "copy.deepcopy{<<foo>>}"],
 	["(each|every) <<x>> (in|inside|within) <<array>> (where|(such|so) that) <<y>>", "every <<x>> in <<array>> that matches the condition <<y>>"],
 	[["((do|repeat)(| this)) <<foo>> times: <<bar>>"], "for _ in (every integer from 0 to <<foo>>) : <<bar>>"],
+	[["add <<bar>> to <<foo>>"], "<<foo>> += <<bar>>"],
+	[["divide <<foo>> by <<bar>>"], "<<foo>> = (<<foo>> / <<bar>>)"],
+	[["subtract <<bar>> from <<foo>>"], "<<foo>> -= <<bar>>"],
+	[["multiply <<foo>> by <<bar>>"], "<<foo>> *= <<bar>>"],
+	[["the square of <<foo>>", "<<foo>> squared"], "<<foo>> to the power of 2"],
+	[["<<foo>> cubed"], "<<foo>> to the power of 3"]
 	]
 	
 '''

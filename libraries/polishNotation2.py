@@ -275,6 +275,10 @@ def evaluateMacro(theOldArray, reallyNewInfoArray):
 		if(theOldArray[1][0] == "["):
 			return evaluateMacro(theOldArray[0], reallyNewInfoArray) + evaluateMacro(theOldArray[1], reallyNewInfoArray)
 	for current in ["+", "*", "/", "%", "^", ",", ".", ">", "<", ">=", "<=", "==", "]["]:
+		if(current == "^"):
+			newCurrent = "**"
+		else:
+			newCurrent = current
 		toReturn = ""
 		if isSeparatedBy(theOldArray, current) and (not (theOldArray[-1] == current)):
 			for i in range(0, len(theOldArray)):
@@ -282,9 +286,9 @@ def evaluateMacro(theOldArray, reallyNewInfoArray):
 					toReturn += evaluateMacro(theOldArray[i], reallyNewInfoArray)
 					if i < (len(theOldArray) -1):
 						if(current == ","):
-							toReturn += current+" "
+							toReturn += newCurrent+" "
 						else:
-							toReturn += " "+current+" "
+							toReturn += " "+newCurrent+" "
 		if(not (current in [",", "]["])):
 			toReturn = "(" + toReturn + ")"
 		if (toReturn != "()" and toReturn != ""):

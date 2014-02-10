@@ -100,4 +100,5 @@ def testMacro(syntaxRules, theInput):
 	return polishNotation2.testMacro(theInput, pythonSyntaxArray)
 	pass
 
-#syntaxRules = makeSyntaxRules(syntaxRules)
+#syntaxRules = makeSyntaxRules(syntaxRules))
+print(10 ^ 3)

@@ -21,7 +21,7 @@ Some useful code samples:
 	#Check whether a number is prime
 	x = 15
 	
-	if ((x is a prime number) and (x is divisible by 10)) :
+	if ((x is a prime number) or (x is divisible by 5)) :
 		print x
 	
 	#Create a string from a file

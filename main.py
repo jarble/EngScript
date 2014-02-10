@@ -1,3 +1,5 @@
+print((1,2,3,4) in [1,2,3,4,5])
+
 from libraries import syntaxRules
 
 #import syntaxRules from libraries as herpy
@@ -5,11 +7,48 @@ from libraries import syntaxRules
 import englishToPython
 testMacro = syntaxRules.testMacro
 
+def printAndTest(theString):
+	theString = testMacro(englishToPython.englishToPython, theString)
+	print(theString)
+	exec theString
 
-print testMacro(englishToPython.englishToPython,
+exec testMacro(englishToPython.englishToPython,
 '''
+import re
+import numpy
+import choice from random
+import time
+import copy
+import random
+import math
+from libraries import syntaxRules as herpy
+
+import pythonFunctions
+
+print{10 cubed}
+print "Demonstration of new list comprehension syntax"
+print (each x inside [1,2,3,4,5,6] such that (x is divisible by 2))
+#This is some EnglishScript code.
+
+#These are EngScript's built-in Python functions.
+
+
+
+print{the square of 2}
+let goo be 1
+
+add 3 to goo
+subtract 1 from goo
+multiply goo by 4
+divide goo by 2
+print{"goo is ", goo}
+
+
+print (everything in [1,2,3,4] is in [1,2,3,4,5])
+print{["Hello", "World", "Now"] contains all of these things: ["Now", "Hello"]}
+
 #Create a string from a file
-print{create a string from the file called "README.txt"}
+print{create a string from the file called "README.md"}
 
 #Save a string as a file
 print{save the string "Woohoo!" to a file called "ExampleText.txt"}
@@ -28,26 +67,6 @@ x = 1
 x = (the sum of x and 1)
 if ((x) is not equal to (7)) :
 	print x
-'''
-)
-
-exec testMacro(englishToPython.englishToPython,
-'''
-print "Demonstration of new list comprehension syntax"
-print (each x inside [1,2,3,4,5,6] such that (x is divisible by 2))
-#This is some EnglishScript code.
-import copy
-import random
-import math
-from libraries import syntaxRules as herpy
-import pythonFunctions
-
-#These are EngScript's built-in Python functions.
-
-import re
-import numpy
-import choice from random
-import time
 
 do this 3 times:
 	print "Wow!"
@@ -252,6 +271,7 @@ print{the negation of True}
 set goofy to "This is a new macro"
 print goofy
 
+print{10 ^ 3}
 '''
 )
 
@@ -286,6 +306,9 @@ print{copy of [1,2,3,4,5]}
 print{the type of every variable in [1,"string","hello"]}
 print{every variable in [1,"string","hello"] has the same type}
 print{delete index 3 in [1,2,3,4]}
+print{10 cubed}
+print{10 to the power of 3}
+print{10 ^ 3}
 ''')
 		
 sampleGrammar = [
